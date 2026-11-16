@@ -1,0 +1,10 @@
+214448ee8dfab70506b8e3fb0a54df2a535c4919a22cf9c6c0250bb44c04b6ce  PickSnap-v1.4.1-Setup.exe
+25d68ccfc7c3d5c74586d2e3f725716198b48386aae17d86e0e6e010fdc8152e  PickSnap-v1.4.1-macos-arm64-cn.dmg
+17657d68b5386a55b3c49f35f8e16b064a439dde38d0ae726f33cf5e1425ad21  PickSnap-v1.4.1-macos-arm64-cn.zip
+77497ba1eba197ff9bc89f14c82f164d7a85959cf9133339ad20e8275922b3d6  PickSnap-v1.4.1-macos-arm64-global.dmg
+eb765a5a783cb6020bd00c45ad4f94a5262004d461bee326c7ca7e3cd4b00592  PickSnap-v1.4.1-macos-arm64-global.zip
+06ac64e85fe7e0f938797eacfbdd04b82b4858b43d82bb6a8f3931eca529912b  PickSnap-v1.4.1-windows-x64-cn-Setup.exe
+c0ddedc09989ab1a6e749ed7a2684492cbda9b3afaed7ec5f222f8e51f3061d9  PickSnap-v1.4.1-windows-x64-cn.zip
+214448ee8dfab70506b8e3fb0a54df2a535c4919a22cf9c6c0250bb44c04b6ce  PickSnap-v1.4.1-windows-x64-global-Setup.exe
+b5d15b8e9e5445a725cad3bcb1cca9017b9ae208a255de90c70935d681cc55e3  PickSnap-v1.4.1-windows-x64-global.zip
+77497ba1eba197ff9bc89f14c82f164d7a85959cf9133339ad20e8275922b3d6  PickSnap-v1.4.1.dmg
