@@ -1,0 +1,79 @@
+{
+  "version": "1.4.1",
+  "source_commit": "9c5895225fde47cef8df9ba35f9a68011ae8a0ef",
+  "source_merge_commit": "34d013665331d381ecd02633517f2707b4afe839",
+  "source_tree": "cf16f8dc84c5066299da5e36effe71c04a36317d",
+  "baseline": "b8366203f1b1dcfc17a47bebdd031751812e22b6",
+  "packages": [
+    {
+      "name": "PickSnap-v1.4.1-macos-arm64-cn.dmg",
+      "bytes": 134262938,
+      "sha256": "25d68ccfc7c3d5c74586d2e3f725716198b48386aae17d86e0e6e010fdc8152e"
+    },
+    {
+      "name": "PickSnap-v1.4.1-macos-arm64-cn.zip",
+      "bytes": 127530072,
+      "sha256": "17657d68b5386a55b3c49f35f8e16b064a439dde38d0ae726f33cf5e1425ad21"
+    },
+    {
+      "name": "PickSnap-v1.4.1-macos-arm64-global.dmg",
+      "bytes": 134265145,
+      "sha256": "77497ba1eba197ff9bc89f14c82f164d7a85959cf9133339ad20e8275922b3d6"
+    },
+    {
+      "name": "PickSnap-v1.4.1-macos-arm64-global.zip",
+      "bytes": 127530495,
+      "sha256": "eb765a5a783cb6020bd00c45ad4f94a5262004d461bee326c7ca7e3cd4b00592"
+    },
+    {
+      "name": "PickSnap-v1.4.1-windows-x64-cn-Setup.exe",
+      "bytes": 145397543,
+      "sha256": "06ac64e85fe7e0f938797eacfbdd04b82b4858b43d82bb6a8f3931eca529912b"
+    },
+    {
+      "name": "PickSnap-v1.4.1-windows-x64-cn.zip",
+      "bytes": 143722942,
+      "sha256": "c0ddedc09989ab1a6e749ed7a2684492cbda9b3afaed7ec5f222f8e51f3061d9"
+    },
+    {
+      "name": "PickSnap-v1.4.1-windows-x64-global-Setup.exe",
+      "bytes": 145399469,
+      "sha256": "214448ee8dfab70506b8e3fb0a54df2a535c4919a22cf9c6c0250bb44c04b6ce"
+    },
+    {
+      "name": "PickSnap-v1.4.1-windows-x64-global.zip",
+      "bytes": 143722788,
+      "sha256": "b5d15b8e9e5445a725cad3bcb1cca9017b9ae208a255de90c70935d681cc55e3"
+    }
+  ],
+  "compat_region": "global",
+  "compatibility_aliases": {
+    "PickSnap-v1.4.1.dmg": "PickSnap-v1.4.1-macos-arm64-global.dmg",
+    "PickSnap-v1.4.1-Setup.exe": "PickSnap-v1.4.1-windows-x64-global-Setup.exe"
+  },
+  "search_model_sources": {
+    "cn": "hf-mirror",
+    "global": "Hugging Face"
+  },
+  "signing": {
+    "macos_arm64": "ad-hoc, not notarized",
+    "windows_x64": "unsigned"
+  },
+  "evidence": {
+    "windows": "../frozen-build/RESULT.md",
+    "macos": "../frozen-build-mac/RESULT.md",
+    "qa_review": "../qa/R3-frozen/QA-REVIEW-R3.md",
+    "cn_followup": "../qa/R6-cn-direct-full/REPORT-R6.md",
+    "local_full_pytest": "https://github.com/eascivo/picksnap/pull/24"
+  },
+  "limits": [
+    "not a new full QA run",
+    "Windows UTM ARM64 running x64 is not physical Windows x64 validation",
+    "Intel Mac not covered",
+    "See linked QA for failed and unverified observations",
+    "GitHub CI accepted by user for 1.4.2: Mac 12 failures, Windows 72 failures and cp1252 report decoding error",
+    "Post-test system mute check failure accepted by user for 1.4.2 investigation; local full pytest 1163 passed on tested_source_commit"
+  ],
+  "frozen_source_tree": "ef7258e53b62431dee5652b577e2c3fdccdc17fe",
+  "tested_source_commit": "6bb906c0031c20a67814faf6940dc4a9db80eb6d"
+}
